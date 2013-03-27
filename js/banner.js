@@ -41,7 +41,7 @@ var Banner = (function() {
             });
 
             $('#banner_bnav').on('click', '.banner_bnav_arrt', prevBanner);
-            $('#banner_bnav').on('click', '.banner_bnav_arrt', nextBanner);
+            $('#banner_bnav').on('click', '.banner_bnav_arrb', nextBanner);
         }
     };
 
