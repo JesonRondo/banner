@@ -1,0 +1,14 @@
+.banner_main { position: relative; float: left; width: 630px; height: 269px; background: #000 url(../images/loading.gif) center center no-repeat; overflow: hidden; }
+.banner_main a { position: absolute; left: 0; top: 0; width: 630px; height: 269px; }
+.banner_bnav { position: relative; float: left; width: 115px; height: 269px; padding: 0 4px; background: #332E2B; z-index: 5; }
+.banner_bnav_curnav { position: absolute; left: -5px; top: 0; width: 128px; height: 57px; background: url(../images/tip.png) 0 -102px no-repeat; }
+.banner_bnav_blistbox { position: relative; height: 269px; overflow: hidden; }
+.banner_bnav_bnavlist { position: absolute; top: 0; padding-top: 4px; }
+.banner_bnav_bnavlist li { padding-bottom: 4px; *padding-bottom: 1px; _*padding-bottom: 1px; }
+.banner_bnav_bnavlist li a { display: block; width: 115px; height: 49px; -webkit-transition: opacity .2s ease-in-out; -moz-transition: opacity .2s ease-in-out; -o-transition: opacity .2s ease-in-out; transition: opacity .2s ease-in-out; -moz-opacity: .6; filter: alpha(opacity=60); opacity: .6; }
+.banner_bnav_bnavlist li .cur { -moz-opacity: 1; filter: alpha(opacity=100); opacity: 1; }
+.banner_bnav_arr { display: block; position: absolute; left: 39px; width: 36px; height: 36px; }
+.banner_bnav_arrt { display: none; top: 3px; background: url(../images/tip.png) 0 -66px no-repeat; }
+.banner_bnav_arrt { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arr_t.png'); }
+.banner_bnav_arrb { display: none; bottom: 3px; background: url(../images/tip.png) -36px -66px no-repeat; }
+.banner_bnav_arrb { _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arr_b.png'); }

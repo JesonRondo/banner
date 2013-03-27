@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>轮播</title>
+    <link rel="stylesheet" href="http://vicbeta.com/themes/reset.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+</head>
+<body>
+    <div class="banner clearfix" id="banner">
+        <div class="banner_main" id="banner_main">
+            <a href="javascript:void(0);"><img src="images/1.jpg" alt="" width="630" height="269" /></a>
+            <a href="javascript:void(0);"><img src="images/blank.gif" data-img="images/2.jpg" alt="" width="630" height="269" /></a>
+            <a href="javascript:void(0);"><img src="images/blank.gif" data-img="images/3.jpg" alt="" width="630" height="269" /></a>
+            <a href="javascript:void(0);"><img src="images/blank.gif" data-img="images/4.jpg" alt="" width="630" height="269" /></a>
+            <a href="javascript:void(0);"><img src="images/blank.gif" data-img="images/5.jpg" alt="" width="630" height="269" /></a>
+            <a href="javascript:void(0);"><img src="images/blank.gif" data-img="images/6.jpg" alt="" width="630" height="269" /></a>
+        </div>
+        <div class="banner_bnav" id="banner_bnav">
+            <div class="banner_bnav_curnav"></div>
+            <div class="banner_bnav_blistbox">
+                <ul class="banner_bnav_bnavlist" id="blist">
+                    <li><a href="javascript:void(0);"><img src="images/b1.jpg" alt="" width="115" height="49" /></a></li>
+                    <li><a href="javascript:void(0);"><img src="images/b2.jpg" alt="" width="115" height="49" /></a></li>
+                    <li><a href="javascript:void(0);"><img src="images/b3.jpg" alt="" width="115" height="49" /></a></li>
+                    <li><a href="javascript:void(0);"><img src="images/b4.jpg" alt="" width="115" height="49" /></a></li>
+                    <li><a href="javascript:void(0);"><img src="images/b5.jpg" alt="" width="115" height="49" /></a></li>
+                    <li><a href="javascript:void(0);"><img src="images/b6.jpg" alt="" width="115" height="49" /></a></li>
+                </ul>
+                <a href="javascript:void(0);" class="banner_bnav_arr banner_bnav_arrt"></a>
+                <a href="javascript:void(0);" class="banner_bnav_arr banner_bnav_arrb"></a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://vicbeta.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/banner.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Banner.init();
+        });
+
+        $(window).load(function() {
+            Banner.start();
+        });
+</script>
+</body>
+</html>
